@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(241, 241, 241);
+    font-family: 'Ubuntu', sans-serif;
+    margin: 20px;
+  }
+header{
+    display: flex;
+    background-color: rgb(241, 241, 241);
+    height: 100px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+a{
+    color: black;
+
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    height: 75px;
+}
+
+.top{
+    display: flex;
+    gap: 20px;
+}
+  
+.nawi a{
+    text-decoration: none;
+}
+
+.nawi {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    color: black;
+    justify-content: space-between;
+    font-size: 25px;
+    
+}
+
+.rajpar {
+    max-height:100%;
+    max-width:100%;
+    
+}
