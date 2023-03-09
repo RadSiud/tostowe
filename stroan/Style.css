@@ -44,6 +44,68 @@ a{
 
 .rajpar {
     max-height:100%;
-    max-width:100%;
+    width:100%;
     
+}
+
+.poznaj{
+    display:flex;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.dlaciebie{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.plany{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-right: 30px;
+
+}
+.plany a{
+    text-decoration: none;
+}
+
+
+/* produkt */
+
+.produkt {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin: 20px;
+  }
+  
+.cena{
+    color:grey;
+    font-size:22px;
+}
+.produkt button{
+    border: none;
+    outline: 0;
+    padding:20px;
+    color:white;
+    background-color: #000;
+    text-align: center;
+    cursor:pointer;
+    width:100%;
+    font-size:18px;
+}
+.produkt button:hover {
+    opacity: 0.7;
+  }
+
+/* produkt */
+
+.productgrid{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
 }
