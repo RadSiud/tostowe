@@ -42,12 +42,6 @@ a{
     
 }
 
-.rajpar {
-    max-height:100%;
-    width:100%;
-    
-}
-
 .poznaj{
     display:flex;
     justify-content: center;
@@ -75,12 +69,16 @@ a{
 /* produkt */
 
 .produkt {
+    display: flex;
+    flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 400px;
+    max-width: 370px;
     margin: auto;
     text-align: center;
     font-family: arial;
-    margin: 20px;
+    margin: 5px;
+    height: 750px;
+    justify-content: space-between;
   }
   
 .cena{
@@ -88,6 +86,8 @@ a{
     font-size:22px;
 }
 .produkt button{
+    display: flex;
+    justify-content: center;
     border: none;
     outline: 0;
     padding:20px;
@@ -106,6 +106,32 @@ a{
 
 .productgrid{
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     justify-content: space-around;
+}
+.opis{
+    padding: 10px;
+}
+.rabat{
+    max-height:100%;
+    width:100%;
+}
+
+.przyciskdol{
+    margin-bottom: 0;
+}
+.wiecejdiet{
+    display: flex;
+    margin-top: 50px;
+    width: 600px;
+    height: 150px;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: #3b0000;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+
 }
